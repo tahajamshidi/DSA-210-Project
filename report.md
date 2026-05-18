@@ -87,7 +87,9 @@ The original GDP distribution is heavily right-skewed because wealthy countries 
 
 ### Figure 2 — Distribution of Log GDP Per Capita
 
-[Insert log GDP histogram here]
+<img width="641" height="467" alt="Screenshot 2026-05-18 at 8 32 33 PM" src="https://github.com/user-attachments/assets/9b4c3b1d-3251-4ae6-8b5f-5c87c0184cfc" />
+
+
 
 Interpretation:
 After logarithmic transformation, the GDP distribution becomes significantly more balanced and closer to a normal distribution. This improves statistical analysis and machine learning stability.

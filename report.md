@@ -201,6 +201,8 @@ Correlation matrices and heatmaps were generated to identify relationships betwe
 ### Figure 8 — Correlation Heatmap
 
 <img width="529" height="422" alt="Screenshot 2026-05-18 at 8 37 11 PM" src="https://github.com/user-attachments/assets/c374c0ce-f47e-4e49-af47-b0e86a79cadd" />
+<img width="1365" height="900" alt="Screenshot 2026-05-18 at 10 58 22 PM" src="https://github.com/user-attachments/assets/cb897a4d-013a-431f-a229-fe897e48f40c" />
+
 
 Interpretation:
 GDP-related variables show stronger positive relationships with each other, while war and disaster variables have weaker direct correlations. Population growth exhibits weaker linear relationships with GDP variables.

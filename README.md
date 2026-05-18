@@ -1,9 +1,14 @@
 # DSA-210-Project
+
 # Global Population and Economic Growth Analysis
+
+---
 
 ## Project Overview
 
-This project analyzes the relationship between economic development and population growth across countries between 2000 and 2025. The project studies how GDP per capita, GDP growth, regional differences, and major events such as wars and natural disasters relate to demographic trends around the world.
+This project analyzes the relationship between economic development and population growth across countries between 2000 and 2025.
+
+The project studies how GDP per capita, GDP growth, regional differences, and major events such as wars and natural disasters relate to demographic trends around the world.
 
 The analysis includes exploratory data analysis (EDA), statistical hypothesis testing, supervised machine learning models, hyperparameter tuning, and unsupervised clustering methods.
 
@@ -27,14 +32,15 @@ The main objectives of this project are:
 
 The dataset contains country-level economic and demographic information between 2000 and 2025.
 
-Main variables include:
+### Main Variables
 
 - Country
 - Year
 - GDP_Per_Capita
 - Population_Growth_Rate
 
-Data source:
+### Data Sources
+
 - World Bank API
 - Publicly available economic datasets
 - Kaggle
@@ -63,6 +69,8 @@ notebooks/      -> notebooks used during development
 src/            -> additional source files
 README.md       -> project documentation
 proposal.pdf    -> project proposal
+DSA_210_project_stage_4.ipynb -> final notebook
+```
 
 ---
 
@@ -70,82 +78,113 @@ proposal.pdf    -> project proposal
 
 The project includes:
 
-Histograms
-Scatterplots
-Line plots
-Boxplots
-Correlation heatmaps
-Hypothesis Testing
+- Histograms
+- Scatterplots
+- Line plots
+- Boxplots
+- Correlation heatmaps
+
+---
+
+## Hypothesis Testing
 
 The following statistical tests were applied:
 
-Pearson correlation tests
-ANOVA
-Independent t-tests
-Machine Learning Models
+- Pearson correlation tests
+- ANOVA
+- Independent t-tests
+
+---
+
+## Machine Learning Models
 
 The following machine learning models were compared:
 
-Logistic & Linear Regression
-Decision Tree
-Random Forest
-Gradient Boosting
-KNN
-SVM
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- KNN
+- SVM
 
 Hyperparameter tuning was performed using GridSearchCV.
 
-Clustering
+---
+
+## Clustering
 
 K-Means clustering was applied as an unsupervised learning method.
 
 ---
 
-Key Findings:
+## Key Findings
 
-GDP per capita and population growth show statistically significant relationships.
-Population growth patterns differ significantly across continents.
-Economic variables such as GDP and GDP growth are among the strongest predictors in machine learning models.
-Random Forest and ensemble-based methods generally performed better than simpler baseline models.
-Hyperparameter tuning improved model performance.
-Visualizations
+- GDP per capita and population growth show statistically significant relationships.
+- Population growth patterns differ significantly across continents.
+- Economic variables such as GDP and GDP growth are among the strongest predictors in machine learning models.
+- Random Forest and ensemble-based methods generally performed better than simpler baseline models.
+- Hyperparameter tuning improved model performance.
+
+---
+
+## Visualizations
 
 The project includes visualizations such as:
 
-GDP distribution plots
-Population growth distributions
-GDP vs population growth scatterplots
-Continent-wise comparisons
-Correlation heatmaps
-Confusion matrices
-Feature importance plots
-K-Means clustering plots
+- GDP distribution plots
+- Population growth distributions
+- GDP vs population growth scatterplots
+- Continent-wise comparisons
+- Correlation heatmaps
+- Confusion matrices
+- Feature importance plots
+- K-Means clustering plots
 
 ---
 
-Main libraries used:
+## How to Run
 
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-scikit-learn
-xgboost
-Future Work
+1. Clone the repository
+2. Install dependencies
+3. Open the notebook in Jupyter Notebook or Google Colab
+4. Run all cells sequentially
 
 ---
+
+## Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Main Libraries Used
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scipy
+- scikit-learn
+- xgboost
+
+---
+
+## Future Work
 
 Possible future improvements include:
 
-Adding more economic indicators
-Including migration and fertility data
-Using deeper time-series forecasting models
-Expanding war/disaster datasets
-Applying advanced ensemble learning techniques
+- Adding more economic indicators
+- Including migration and fertility data
+- Using deeper time-series forecasting models
+- Expanding war/disaster datasets
+- Applying advanced ensemble learning techniques
 
 ---
 
-AI Assistance Disclosure
+## AI Assistance Disclosure
 
-AI tools were used during development for debugging assistance, code refinement, explanation of methods, and documentation support. All final implementation decisions, analysis, and interpretations were reviewed and completed by the project author.
+AI tools were used during development for debugging assistance, code refinement, explanation of methods, and documentation support.
+
+All final implementation decisions, analysis, and interpretations were reviewed and completed by the project author.

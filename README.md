@@ -71,7 +71,7 @@ notebooks/      -> notebooks used during development
 src/            -> additional source files
 README.md       -> project documentation
 proposal.pdf    -> project proposal
-DSA_210_project_stage_4.ipynb -> final notebook
+DSA-210-Term-Project-Final -> final notebook
 ```
 
 ---

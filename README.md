@@ -72,6 +72,7 @@ src/            -> additional source files
 README.md       -> project documentation
 proposal.pdf    -> project proposal
 DSA-210-Term-Project-Final -> final notebook
+report.md -> final report
 ```
 
 ---

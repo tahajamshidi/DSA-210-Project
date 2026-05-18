@@ -66,7 +66,7 @@ proposal.pdf    -> project proposal
 
 ---
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The project includes:
 

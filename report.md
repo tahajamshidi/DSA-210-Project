@@ -78,7 +78,7 @@ This transformation improved model stability and reduced the effect of extreme o
 
 ### Figure 1 — Distribution of Raw GDP Per Capita
 
-[Insert raw GDP histogram here]
+<img width="641" height="467" alt="Screenshot 2026-05-18 at 8 32 33 PM" src="https://github.com/user-attachments/assets/9b4c3b1d-3251-4ae6-8b5f-5c87c0184cfc" />
 
 Interpretation:
 The original GDP distribution is heavily right-skewed because wealthy countries have extremely large GDP values. Most observations are concentrated in lower GDP ranges.
@@ -87,7 +87,8 @@ The original GDP distribution is heavily right-skewed because wealthy countries 
 
 ### Figure 2 — Distribution of Log GDP Per Capita
 
-<img width="641" height="467" alt="Screenshot 2026-05-18 at 8 32 33 PM" src="https://github.com/user-attachments/assets/9b4c3b1d-3251-4ae6-8b5f-5c87c0184cfc" />
+<img width="664" height="466" alt="Screenshot 2026-05-18 at 8 33 33 PM" src="https://github.com/user-attachments/assets/9885c8e0-4d2e-4638-a3ff-c7892e53d06e" />
+
 
 
 
@@ -136,7 +137,8 @@ EDA was conducted to understand distributions, relationships, trends, and anomal
 
 ### Figure 3 — Population Growth Rate Distribution
 
-[Insert population growth histogram here]
+<img width="628" height="461" alt="Screenshot 2026-05-18 at 8 34 01 PM" src="https://github.com/user-attachments/assets/780917e9-6b0d-4dc9-af7a-0a958f41630c" />
+
 
 Interpretation:
 Most countries cluster around low-to-moderate population growth rates, while several developing countries exhibit extremely high growth rates. Some developed countries also display negative population growth.
@@ -147,7 +149,8 @@ Most countries cluster around low-to-moderate population growth rates, while sev
 
 ### Figure 4 — GDP Per Capita vs Population Growth Rate
 
-[Insert scatterplot here]
+<img width="945" height="558" alt="Screenshot 2026-05-18 at 8 34 26 PM" src="https://github.com/user-attachments/assets/ca19d56a-d560-4fb6-904b-6ced0d85b0ae" />
+
 
 Interpretation:
 The scatterplot shows that countries with higher GDP per capita generally tend to have lower population growth rates. Developing economies appear more concentrated in higher population growth regions.
@@ -158,7 +161,8 @@ The scatterplot shows that countries with higher GDP per capita generally tend t
 
 ### Figure 5 — GDP Per Capita Over Time by Continent
 
-[Insert continent GDP lineplot here]
+<img width="1067" height="558" alt="Screenshot 2026-05-18 at 8 34 54 PM" src="https://github.com/user-attachments/assets/bfb667ee-8168-4856-b172-705128b97b2e" />
+
 
 Interpretation:
 North America and Europe maintain consistently high GDP levels throughout the observed years. Asia shows significant growth over time, while Africa remains comparatively lower.
@@ -169,7 +173,8 @@ North America and Europe maintain consistently high GDP levels throughout the ob
 
 ### Figure 6 — Log GDP Over Time by Continent
 
-[Insert log GDP continent lineplot here]
+<img width="1051" height="545" alt="Screenshot 2026-05-18 at 8 35 16 PM" src="https://github.com/user-attachments/assets/063a081d-7674-4b56-8634-243930903dfb" />
+
 
 Interpretation:
 The logarithmic transformation reveals long-term growth patterns more clearly and reduces visual distortion caused by extremely wealthy countries.
@@ -180,7 +185,9 @@ The logarithmic transformation reveals long-term growth patterns more clearly an
 
 ### Figure 7 — GDP and Population Growth Trends by Continent
 
-[Insert dual-axis continent plot here]
+<img width="515" height="609" alt="Screenshot 2026-05-18 at 8 36 14 PM" src="https://github.com/user-attachments/assets/cb6b0971-9ad1-46f7-9fbd-d623410252b8" />
+<img width="511" height="614" alt="Screenshot 2026-05-18 at 8 36 37 PM" src="https://github.com/user-attachments/assets/97366913-3ad4-4a6b-9fe6-d087f3fa3151" />
+
 
 Interpretation:
 Different continents display distinct economic-demographic behavior. Some regions exhibit rapid GDP growth with declining population growth, while others experience higher population growth alongside slower economic development.
@@ -193,7 +200,7 @@ Correlation matrices and heatmaps were generated to identify relationships betwe
 
 ### Figure 8 — Correlation Heatmap
 
-[Insert correlation heatmap here]
+<img width="529" height="422" alt="Screenshot 2026-05-18 at 8 37 11 PM" src="https://github.com/user-attachments/assets/c374c0ce-f47e-4e49-af47-b0e86a79cadd" />
 
 Interpretation:
 GDP-related variables show stronger positive relationships with each other, while war and disaster variables have weaker direct correlations. Population growth exhibits weaker linear relationships with GDP variables.
@@ -226,7 +233,8 @@ The project also investigated whether wars and natural disasters significantly i
 
 ### Figure 9 — GDP Growth Rate: War vs No War
 
-[Insert war boxplot here]
+<img width="639" height="475" alt="Screenshot 2026-05-18 at 8 37 49 PM" src="https://github.com/user-attachments/assets/26e56d6b-b780-44f5-b577-301da55b4c49" />
+
 
 Interpretation:
 Countries experiencing wars generally display more unstable GDP growth distributions compared to non-war observations.
@@ -235,7 +243,8 @@ Countries experiencing wars generally display more unstable GDP growth distribut
 
 ### Figure 10 — GDP Growth Rate: Disaster vs No Disaster
 
-[Insert disaster boxplot here]
+<img width="647" height="497" alt="Screenshot 2026-05-18 at 8 38 04 PM" src="https://github.com/user-attachments/assets/7451dfed-c7b4-4383-93f3-35816733e72d" />
+
 
 Interpretation:
 Natural disasters also influence GDP growth patterns, although the distributions overlap substantially with non-disaster observations.
@@ -275,7 +284,8 @@ Logistic Regression was implemented as the baseline classification model.
 
 ### Figure 11 — Logistic Regression Confusion Matrix
 
-[Insert logistic regression confusion matrix here]
+<img width="559" height="421" alt="Screenshot 2026-05-18 at 8 38 36 PM" src="https://github.com/user-attachments/assets/18bfd5d9-d6d1-4d91-8381-eebddbdf5dfc" />
+
 
 Interpretation:
 The model performs relatively well for low-growth countries but struggles more with medium-growth observations, indicating overlapping economic patterns.
@@ -307,7 +317,8 @@ Random Forest combined multiple decision trees using ensemble learning.
 
 ### Figure 12 — Random Forest Confusion Matrix
 
-[Insert Random Forest confusion matrix here]
+<img width="541" height="413" alt="Screenshot 2026-05-18 at 8 39 05 PM" src="https://github.com/user-attachments/assets/5c866bf8-6c7e-46e8-b4ac-bb3c5931809e" />
+
 
 Interpretation:
 Random Forest achieved stronger balanced classification across all GDP growth classes and became the best-performing model.
@@ -382,7 +393,10 @@ Tuning improved multiple models, especially Random Forest and KNN.
 
 ### Figure 13 — Tuned Model Performance Comparison
 
-[Insert model comparison bar chart here]
+<img width="663" height="209" alt="Screenshot 2026-05-18 at 8 40 26 PM" src="https://github.com/user-attachments/assets/981fc404-1516-43b8-b5ee-4e090db9d820" />
+<img width="891" height="554" alt="Screenshot 2026-05-18 at 8 41 25 PM" src="https://github.com/user-attachments/assets/9cb169c8-195c-45a7-acf7-597fd968df33" />
+
+
 
 Interpretation:
 Random Forest and KNN achieved the strongest overall performance, indicating that nonlinear models are more suitable for economic-demographic prediction tasks.
@@ -404,7 +418,10 @@ The most important features included:
 
 ### Figure 14 — Feature Importance Plot
 
-[Insert feature importance plot here]
+
+<img width="923" height="471" alt="Screenshot 2026-05-18 at 8 42 05 PM" src="https://github.com/user-attachments/assets/1962790b-1752-479c-afe3-b3e24a9cce7e" />
+
+
 
 Interpretation:
 GDP-related variables dominate prediction performance, while regional indicators also contribute strongly. War and disaster variables show relatively lower predictive importance.
@@ -434,7 +451,8 @@ K = 3
 
 ### Figure 15 — Elbow Method Plot
 
-[Insert elbow method plot here]
+<img width="615" height="462" alt="Screenshot 2026-05-18 at 8 42 34 PM" src="https://github.com/user-attachments/assets/fdf832cf-f305-4828-ab4f-42ff37e2240b" />
+
 
 Interpretation:
 The elbow point appears around K=3, indicating that three clusters provide a reasonable balance between model simplicity and explanatory power.
@@ -477,7 +495,8 @@ Characteristics:
 
 ### Figure 16 — K-Means Clustering Scatter Plot
 
-[Insert K-Means clustering plot here]
+<img width="652" height="476" alt="Screenshot 2026-05-18 at 8 42 55 PM" src="https://github.com/user-attachments/assets/3a4f34ee-8104-4500-b7e6-83e0a0c56b84" />
+
 
 Interpretation:
 The scatter plot demonstrates visible separation between economic-demographic groups. High-income countries form distinct regions, while developing economies cluster separately.

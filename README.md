@@ -43,7 +43,7 @@ The dataset contains country-level economic and demographic information between 
 
 - World Bank API
 - Publicly available economic datasets
-- Kaggle
+- Kaggle Dataset: https://www.kaggle.com/datasets/abidhussai512/global-population-and-economic-growth-dataset
 
 ---
 
@@ -58,6 +58,8 @@ Several additional features were created to enrich the dataset:
 - War indicators
 - Disaster indicators
 - Lagged war/disaster variables
+
+The war and disaster variables were manually enriched using public international conflict and disaster databases.
 
 ---
 
@@ -84,6 +86,8 @@ The project includes:
 - Boxplots
 - Correlation heatmaps
 
+The EDA phase was used to identify economic and demographic trends across countries and continents.
+
 ---
 
 ## Hypothesis Testing
@@ -93,6 +97,8 @@ The following statistical tests were applied:
 - Pearson correlation tests
 - ANOVA
 - Independent t-tests
+
+These tests were used to evaluate statistical relationships between GDP, population growth, wars, disasters, and continent-based differences.
 
 ---
 
@@ -109,11 +115,20 @@ The following machine learning models were compared:
 
 Hyperparameter tuning was performed using GridSearchCV.
 
+The models were evaluated using:
+
+- Accuracy
+- Macro F1-score
+- Classification reports
+- Confusion matrices
+
 ---
 
 ## Clustering
 
 K-Means clustering was applied as an unsupervised learning method.
+
+The clustering analysis was used to identify groups of countries with similar economic and demographic characteristics.
 
 ---
 
@@ -124,6 +139,7 @@ K-Means clustering was applied as an unsupervised learning method.
 - Economic variables such as GDP and GDP growth are among the strongest predictors in machine learning models.
 - Random Forest and ensemble-based methods generally performed better than simpler baseline models.
 - Hyperparameter tuning improved model performance.
+- Wars and disasters showed measurable relationships with GDP growth in several analyses.
 
 ---
 
@@ -167,7 +183,7 @@ pip install -r requirements.txt
 - seaborn
 - scipy
 - scikit-learn
-- xgboost
+- statsmodels
 
 ---
 
@@ -180,6 +196,51 @@ Possible future improvements include:
 - Using deeper time-series forecasting models
 - Expanding war/disaster datasets
 - Applying advanced ensemble learning techniques
+- Using larger real-world conflict event datasets
+
+---
+
+## References
+
+1. Global Population and Economic Growth Dataset  
+https://www.kaggle.com/datasets/abidhussai512/global-population-and-economic-growth-dataset
+
+Explanation: Main dataset containing country-level GDP per capita and population growth information between 2000 and 2025.
+
+---
+
+2. World Bank API  
+https://data.worldbank.org/
+
+Explanation: Source of economic and demographic indicators used in the dataset.
+
+---
+
+3. EM-DAT International Disaster Database  
+https://www.emdat.be/
+
+Explanation: Used as reference source for identifying major global natural disaster events added to the enrichment process.
+
+---
+
+4. Uppsala Conflict Data Program (UCDP)  
+https://www.uu.se/en/websites/ucdp---uppsala-conflict-data-program
+
+Explanation: Used as reference source for identifying major international war and conflict events added to the enrichment process.
+
+---
+
+5. Pandas Documentation  
+https://pandas.pydata.org/
+
+Explanation: Used for data cleaning, preprocessing, and manipulation.
+
+---
+
+6. Statsmodels Documentation  
+https://www.statsmodels.org/
+
+Explanation: Used for statistical analysis and hypothesis testing.
 
 ---
 
